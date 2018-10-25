@@ -1,7 +1,12 @@
 $(document).ready(function () {
 
     url = window.location.href.split('/');
+    $.get("/api/jobposting/" + url[4], function (data) {
+        console.log("data", data);
 
+        var jobpost = "<h2>" + data.title + " " + "</h2><br>";
+        $("#jobdetail").append(jobpost);
+    });
     $.get("/api/candidates/" + url[4] + "/applied", function (data) {
 
         for (i = 0; i < data.length; i++) {
