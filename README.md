@@ -1,6 +1,6 @@
-#Power Recruiter
+# Power Recruiter
 
-###Power your way through the recruitment process!
+### Power your way through the recruitment process!
 
 
 A single app that allows recruiter to:
