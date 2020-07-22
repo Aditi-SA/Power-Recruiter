@@ -11,7 +11,7 @@ A single app that allows recruiter to:
 
 This project is deployed on Heroku:
 ```js
-Recruiter Login page: <https://boiling-savannah-54530.herokuapp.com/login>
+Recruiter Login page: < https://boiling-savannah-54530.herokuapp.com/login >
 
 Recruiter Login Information:
 Username: Recruiter
